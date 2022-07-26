@@ -1,0 +1,11 @@
+@use "rpx";
+
+@forward "rpx" as rpx-* hide rpx-rpx;
+
+@function rpx($values...) {
+  @return rpx.convert($values...);
+}
+
+@mixin rpx($properties, $values...) {
+  @include rpx.convert($properties, $values...);
+}

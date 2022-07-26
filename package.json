@@ -1,0 +1,29 @@
+{
+  "name": "sass-rpx",
+  "version": "1.0.0",
+  "description": "Sass function and mixin to use rpx units with optional pixel fallback.",
+  "keywords": [
+    "sass",
+    "rpx",
+    "responsive",
+    "fallback"
+  ],
+  "main": "index.scss",
+  "homepage": "https://github.com/changjingli/sass-rpx",
+  "bugs": {
+    "url": "https://github.com/changjingli/sass-rpx/issues"
+  },
+  "license": "MIT",
+  "author": "Jingli Chang <jingli.chang01@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/changjingli/sass-rpx.git"
+  },
+  "devDependencies": {
+    "jest": "^28.1.0",
+    "sass": "^1.52.1"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
